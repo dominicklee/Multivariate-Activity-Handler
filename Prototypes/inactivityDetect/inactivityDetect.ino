@@ -107,7 +107,7 @@ void setup() {
   
   Serial.begin(115200);
 
-  setMaxInactivity(60); //set device to sleep in 30 sec of inactivity
+  setMaxInactivity(20); //set device to sleep in 30 sec of inactivity
 }
 
 void loop() {

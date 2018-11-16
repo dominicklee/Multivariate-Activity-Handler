@@ -72,7 +72,7 @@ void inactivityDetect(int interval, int sensorZ) {
   if (deviceActive) {
     if (peakLock == false) {
       reps++;
-      Serial.print("Reps: ");
+      Serial.print("Steps: ");
       Serial.println(reps);
       lastLocked = millis();
       peakLock = true;  //used to prevent extra counted reps
